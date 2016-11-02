@@ -1,6 +1,12 @@
 # scala-samples
 scala samples
 
+## Scala documentation
+
+[Scala School|https://twitter.github.io/scala_school]
+[Scala CheatSheet|https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md]
+[Scala Style Guide|https://github.com/lampepfl/progfun-wiki/blob/gh-pages/ScalaStyleGuide.md]
+
 ---
 
 ## Commands
