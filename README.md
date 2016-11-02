@@ -1,17 +1,19 @@
 # scala-samples
 scala samples
 
-## Scala documentation
+## Scala resources
 
-[Scala School|https://twitter.github.io/scala_school]
-[Scala CheatSheet|https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md]
-[Scala Style Guide|https://github.com/lampepfl/progfun-wiki/blob/gh-pages/ScalaStyleGuide.md]
+[Scala School](https://twitter.github.io/scala_school)
+
+[Scala CheatSheet](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md)
+
+[Scala Style Guide](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/ScalaStyleGuide.md)
 
 ---
 
 ## Commands
 
-# SBT
+### SBT
 
 SBT version:
 > sbt sbt-version
