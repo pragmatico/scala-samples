@@ -1,4 +1,4 @@
-package co.pragmati
+package co.pragmati.api
 
 import org.scalatest._
 
