@@ -10,5 +10,7 @@
 ### Features
 
 [x] Scala project with serveral modules
+
 [x] Sample of using common dependencies for all the modules
+
 [x] Sample of using specific dependecies for one module
