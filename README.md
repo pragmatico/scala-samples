@@ -1,6 +1,8 @@
 # scala-samples
 scala samples
 
+- [Multi module project](https://github.com/pragmatico/scala-samples/blob/master/multi-module-project/README.md)
+
 ## Scala resources
 
 [Scala School](https://twitter.github.io/scala_school)
