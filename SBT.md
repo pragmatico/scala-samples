@@ -20,3 +20,9 @@ Show dependencies classpath
 
 Go to a project module
 > project <name>
+
+---
+
+Continuous build and test
+> ~ compile
+

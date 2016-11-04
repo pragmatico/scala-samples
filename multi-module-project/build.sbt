@@ -1,4 +1,4 @@
-name := "multi-module-project"
+name := baseDirectory.value.getName
 
 // Common settings for all the modules
 

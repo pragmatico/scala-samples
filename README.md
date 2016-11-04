@@ -13,9 +13,11 @@ scala samples
 
 ---
 
-## Commands
+## Command-line
 
-### [SBT](https://github.com/pragmatico/scala-samples/SBT.md)
+[SBT](https://github.com/pragmatico/scala-samples/blob/master/SBT.md)
+
+[SBT Command line reference](http://www.scala-sbt.org/0.13/docs/Command-Line-Reference.html)
 
 
 
