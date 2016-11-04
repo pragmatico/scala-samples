@@ -14,3 +14,10 @@
 [x] Sample of using common dependencies for all the modules
 
 [x] Sample of using specific dependecies for one module
+
+
+### Coverage reports
+
+To generate coverage reports:
+
+> sbt clean coverageAllProjs test coverageReport
