@@ -6,6 +6,7 @@ lazy val commonSettings = Seq(
   organization := "co.pragmati",
   version := "0.0.1-SNAPSHOT",
   scalaVersion := "2.11.8",
+  test in assembly := {},
 
   libraryDependencies ++= {
     val scalaTestVersion = "3.0.0"
@@ -18,7 +19,13 @@ lazy val commonSettings = Seq(
 )
 
 // root module
-lazy val root = (project in file(".")).settings(commonSettings: _*).aggregate(api, service, domain).dependsOn(api)
+lazy val root = (project in file("."))
+  .settings(commonSettings: _*)
+  .settings(
+    mainClass in assembly := Some("co.pragmati.api.MainApp")
+  )
+  .aggregate(api, service, domain)
+  .dependsOn(api)
 
 // api module
 lazy val api = (project in file("api")).settings(commonSettings: _*)
@@ -40,14 +47,25 @@ lazy val api = (project in file("api")).settings(commonSettings: _*)
       )
     }
   )
+  .settings(
+    assemblyJarName in assembly := "api.jar"
+  )
   .dependsOn(service)
 
 // service module
-lazy val service = (project in file("service")).settings(commonSettings: _*).dependsOn(domain)
+lazy val service = (project in file("service"))
+  .settings(commonSettings: _*)
+  .settings(
+    assemblyJarName in assembly := "service.jar"
+  )
+  .dependsOn(domain)
 
 // domain module
-lazy val domain = (project in file("domain")).settings(commonSettings: _*)
-
+lazy val domain = (project in file("domain"))
+  .settings(commonSettings: _*)
+  .settings(
+    assemblyJarName in assembly := "domain.jar"
+  )
 
 conflictManager := ConflictManager.strict
 
