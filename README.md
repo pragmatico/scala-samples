@@ -3,6 +3,11 @@ scala samples
 
 - [Multi module project](https://github.com/pragmatico/scala-samples/blob/master/multi-module-project/README.md)
 
+- [Swagger docs](https://github.com/pragmatico/scala-samples/blob/master/swagger-docs/README.md)
+
+- [Http Akka](https://github.com/pragmatico/scala-samples/blob/master/http-akka/README.md)
+
+
 ## Scala resources
 
 [Scala School](https://twitter.github.io/scala_school)
