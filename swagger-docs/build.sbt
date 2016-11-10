@@ -23,6 +23,9 @@ libraryDependencies ++= {
 
 mainClass := Some("co.pragmati.MyApp")
 
+// append SHA-1 fingerprint to the assembly file name
+//assemblyOption in assembly := (assemblyOption in assembly).value.copy(appendContentHash = true)
+
 lazy val root = Project("root", file(".")).dependsOn(swaggerSite)
 
 // swagger ui site
