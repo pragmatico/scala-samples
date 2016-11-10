@@ -59,4 +59,8 @@ sbt-assembly
 
 > https://github.com/sbt/sbt-assembly
 
+sbt-sonatype
+
+> https://github.com/xerial/sbt-sonatype
+
 
