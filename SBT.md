@@ -52,3 +52,11 @@ Go to a project module
 Continuous build and test
 > ~ compile
 
+
+## SBT plugins
+
+sbt-assembly
+
+> https://github.com/sbt/sbt-assembly
+
+
