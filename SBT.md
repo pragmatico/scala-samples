@@ -63,4 +63,8 @@ sbt-sonatype
 
 > https://github.com/xerial/sbt-sonatype
 
+sbt-release
+
+> https://github.com/xerial/sbt-release
+
 
