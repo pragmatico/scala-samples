@@ -5,7 +5,13 @@
 
 Swagger akka http references:
 
+Swagger docs:
+
 - https://github.com/swagger-akka-http/swagger-akka-http
+
+Swagger UI:
+
+- https://github.com/pragmatico/swagger-ui-akka-http
 
 ---
 
