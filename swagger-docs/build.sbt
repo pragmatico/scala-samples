@@ -17,6 +17,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaV,
     "com.typesafe.akka" %% "akka-http-testkit" % akkaV,
     "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.7.2",
+    "co.pragmati" %% "swagger-ui-akka-http" % "0.1.0",
     "org.scalatest"     %% "scalatest" % scalaTestV % "test"
   )
 }
@@ -26,9 +27,5 @@ mainClass := Some("co.pragmati.MyApp")
 // append SHA-1 fingerprint to the assembly file name
 //assemblyOption in assembly := (assemblyOption in assembly).value.copy(appendContentHash = true)
 
-lazy val root = Project("root", file(".")).dependsOn(swaggerSite)
-
-// swagger ui site
-lazy val swaggerSite = RootProject(uri("git://github.com/pragmatico/swagger-ui-akka-http.git"))
 
 
