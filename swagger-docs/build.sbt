@@ -17,7 +17,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaV,
     "com.typesafe.akka" %% "akka-http-testkit" % akkaV,
     "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.7.2",
-    "co.pragmati" %% "swagger-ui-akka-http" % "0.1.0",
+    "co.pragmati"       %% "swagger-ui-akka-http" % "1.0.0",
     "org.scalatest"     %% "scalatest" % scalaTestV % "test"
   )
 }
