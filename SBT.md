@@ -52,3 +52,19 @@ Go to a project module
 Continuous build and test
 > ~ compile
 
+
+## SBT plugins
+
+sbt-assembly
+
+> https://github.com/sbt/sbt-assembly
+
+sbt-sonatype
+
+> https://github.com/xerial/sbt-sonatype
+
+sbt-release
+
+> https://github.com/sbt/sbt-release
+
+
