@@ -12,7 +12,7 @@
 
     <appender name="ROLLING_FILE_APPENDER"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/aftersales.log</file>
+        <file>logs/logging.log</file>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>
                 ${logPattern}
