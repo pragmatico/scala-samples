@@ -7,6 +7,14 @@ scala samples
 
 - [Http Akka](https://github.com/pragmatico/scala-samples/blob/master/http-akka/README.md)
 
+- [Code coverage](https://github.com/pragmatico/scala-samples/blob/master/code-coverage/README.md)
+
+- [Github dependency project](https://github.com/pragmatico/scala-samples/blob/master/github-dependency-project/README.md)
+
+- [Liquibase](https://github.com/pragmatico/scala-samples/blob/master/liquibase/README.md)
+
+- [Logging](https://github.com/pragmatico/scala-samples/blob/master/logging/README.md)
+
 
 ## Scala resources
 
